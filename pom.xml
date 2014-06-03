@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>wdcy.cc</groupId>
-    <artifactId>spring-oauth-server</artifactId>
+    <groupId>wzlee.com</groupId>
+    <artifactId>oauth</artifactId>
     <version>1.0</version>
     <name>spring-oauth-server</name>
     <packaging>war</packaging>
-    <description>Spring Oauth Server (WDCY)</description>
+    <description>Spring Oauth Server</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

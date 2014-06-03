@@ -80,7 +80,7 @@
 
     <!--</oauth2:client-details-service>-->
 
-    <beans:bean id="clientDetailsService" class="cc.wdcy.domain.oauth.CustomJdbcClientDetailsService">
+    <beans:bean id="clientDetailsService" class="com.wzlee.oauth.domain.oauth.CustomJdbcClientDetailsService">
         <beans:constructor-arg index="0" ref="dataSource"/>
     </beans:bean>
 
@@ -103,7 +103,7 @@
     <!--<oauth2:expression-handler id="oauth2ExpressionHandler"/>-->
     <!--<oauth2:web-expression-handler id="oauth2WebExpressionHandler"/>-->
 
-    <beans:bean id="oauthUserApprovalHandler" class="cc.wdcy.web.oauth.OauthUserApprovalHandler">
+    <beans:bean id="oauthUserApprovalHandler" class="com.wzlee.oauth.web.oauth.OauthUserApprovalHandler">
         <beans:property name="tokenServices" ref="tokenServices"/>
         <beans:property name="oauthService" ref="oauthService"/>
     </beans:bean>
